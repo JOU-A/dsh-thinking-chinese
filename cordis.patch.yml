@@ -1,0 +1,6 @@
+# dsh-thinking-chinese bundle patch —— 安装后自动把插件行挂进配置树。
+# 之后可在 profile 的 cordis.patch.yml 里按 id 覆盖 config 或 disabled。
+- insert:
+    - id: thinking-chinese
+      name: dsh-thinking-chinese
+      config: {}

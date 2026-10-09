@@ -1,0 +1,32 @@
+{
+  "name": "dsh-thinking-chinese",
+  "version": "1.0.0",
+  "description": "强制 DeepSeek Harness 中所有模型的思考链（thinking / reasoning / chain-of-thought）统一使用简体中文，而不是英文。",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "selftest.mjs"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "reasoning",
+    "thinking",
+    "chinese",
+    "zh-cn"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
