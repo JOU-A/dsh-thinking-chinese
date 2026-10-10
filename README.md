@@ -15,7 +15,7 @@ DSH 没有 provider 层面的「思考语言」参数，模型收到什么语言
 
 ## 安装
 
-**方式一 · GitHub（推荐，需能访问 github.com）：**
+**方式一 · 安装命令行：**
 
 ```powershell
 dsh plugin --profile web add github:JOU-A/dsh-thinking-chinese
